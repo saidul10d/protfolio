@@ -1,0 +1,401 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*header start*/
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 4;
+}
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 110px;
+    margin-top: 10px;
+}
+header .logo{
+   width: 9%;
+   margin: 20px;
+   margin-left: 150px;
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-left: 100px;
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right: 35px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    font-size: 12px;
+    font-weight: bold;
+}
+.nav ul li:first-child a{
+    color: #BA68C8;
+}
+.nav ul a:hover{
+    color: #BA68C8;
+}
+/*header end*/
+/*section1 start*/
+.section1{
+    background-color: #F9F9FF;
+    width: 100%;
+    height: 750PX;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.half1{
+    margin-left: 230px;
+    margin-bottom: 120px;
+}
+.half1 ,.half2{
+    width: 50%;
+    margin-top: 180px;
+}
+.half2{
+    padding-right: 80px;
+}
+.half2 img{
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+.half1 h3{
+    font-weight: normal;
+}
+.half1 h1{
+    font-size: 60px;
+}
+.half1 p{
+    color: rgba(75, 75, 75, 0.7);
+    width: 80%;
+}
+.half1 input{
+    padding: 10px 20px;
+    color: #ffffff;
+    background: linear-gradient(120deg,#BA68C8 60%, #9f9fff );
+    outline: none;
+    border: 1px solid #BA68C8;
+    font-size: 15px;
+}
+.half1 input:hover{
+    box-shadow: 10px 14px 50px rgba(195, 53, 205, 0.4);
+    transition: all 0.3s ease-in 0.1s;
+    outline: none;
+    background: linear-gradient(150deg,#BA68C8 60%, #9f9fff );
+}
+/*section1 end*/
+/*section2 end*/
+.section2{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 div{
+    width: 40%;
+    margin: 0 auto;
+}
+.section2 img{
+    max-width: 77%;
+    margin-bottom: 110px;
+    height: auto;
+    padding: 150px;
+}
+.text2 h3{
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 15px;
+}
+.text2 h1{
+    font-weight: bold;
+    font-size: 36px;
+}
+.text2 p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    width: 80%;
+}
+.text2 input{
+    font-size: 15px;
+    padding: 11px 25px;
+    outline: none;
+    color: white;
+    background: linear-gradient(100deg,#BA68C8 60%, #9f9fff );
+    border: none;
+}
+.text2 input:hover{
+    background: linear-gradient(150deg,#BA68C8 60%, #9f9fff );
+    transition: 0.5s ease-in;
+    box-shadow: 10px 14px 50px rgba(195, 53, 205, 0.4);
+}
+/*section2 end*/
+/*section3 start*/
+.section3{
+    font-family: poppins;
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.firsttext h1{
+    font-size: 40px;
+    line-height: 10px;
+}
+.firsttext p{
+    width: 670px;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 0 auto;
+}
+.firsttext{
+    position: relative;
+    bottom: 70px;
+}
+.service{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.src1, .src2{
+    width: 100%;
+    overflow: hidden;
+}
+.src1 div, .src2 div{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+.src2{
+    padding-top: 60px;
+}
+.src1 img, .src2 img{
+    width: 18%;
+    filter: drop-shadow(2px 2px 30px rgba(97, 94, 97, 0.4));
+}
+.service h1{
+    color: rgba(0, 0, 0, 0.8);
+}
+.service p{
+    color: rgba(0, 0, 0, 0.6);
+}
+.src1 div:hover{
+    background-color: #9f9fff;
+    color: white;
+}
+.src2 div:hover{
+    background-color: #9f9fff;
+ 
+}
+.src2 div:hover p{
+    color: white;
+}
+.src2 div:hover h1{
+    color: white;
+}
+.src1 div:hover p{
+    color: white;
+}
+.src1 div:hover h1{
+    color: white;
+}
+/*section3 end*/
+/*section4 start*/
+.section4{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(180deg, #9f9fff 10%, #BA68C8);
+    font-family: poppins;
+}
+.section4 div{
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    left: 150px;
+    top: 100px;
+}
+.section4 h1{
+    font-size: 35px;
+    line-height: 0px;
+    color: wheat;
+}
+.section4 p{
+    color: wheat;
+}
+
+/*section4 end*/
+/*portfolio start*/
+.section5 {
+    font-family: poppins;
+    width: 100%;
+    box-sizing: border-box;
+}
+.section5 .text3{
+    text-align: center;
+    padding: 100px 0;
+}
+.section5 .text3 h1{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.section5 p{
+    color: #777777
+}
+.section5 .imgg{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.section5 .imgg div{
+    width: 350px;
+    height: 400px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.section5 img:hover{
+    opacity: 0.4;
+}
+.section5 .h11,.pp{
+    line-height: 10px;
+}
+.section5 .imgg div p{
+    font-size: 16px;
+}
+.section5 .imgg div h1{
+    margin-top: 20px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.9);
+}
+/*portfolio end*/
+/*pricing table start*/
+.section6{
+    font-family: poppins;
+    width: 100%;
+    height: 700px;
+    padding-top: 50px;
+}
+.section6 .text4{
+    text-align: center;
+    padding: 2% 0;
+}
+.section6 .text4 h1{
+    font-size: 40px;
+    line-height: 0;
+    padding-top: 15px;
+}
+.section6 .text4 .p{
+    color: rgba(0, 0, 0, 0.7);
+}
+.section6 .card{
+    border: none;
+    outline: none;
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.section6 .card1{
+    width: 300px;
+    height: 630px;
+    background-color: rgb(249, 249, 255);
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.section6 .card1 .price{
+    font-size: 40px;
+}
+.section6 .card h1{
+    font-size: 50px;
+}
+.section6 .card input{
+    outline: none;
+    background-color: #6d7ff9;
+    color: white;
+    font-size: 25px;
+    padding: 6px 60px;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.section6 .card1:hover{
+    background-color: #6d7ff9;
+    color: white;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(130, 147, 255, 0.5);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+}
+.section6 .card1:hover input{
+    color: rgba(0, 0, 0, 0.9);
+    background-color: white;
+}
+/*pricing table end*/
+/*footer start*/
+footer{
+    font-family: poppins;
+    background-color: rgb(4, 9, 30);
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    color: white;
+    margin-top: 200px;
+}
+footer .fot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+footer .fot .fot1 p{
+    color: rgba(255, 255, 255, 0.5);
+}
+footer .fot .fot1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 150px 10px 10px;
+}
+footer .fot button{
+    font-size: 18px;
+    color: white;
+    background-color: #6d7ff9;
+    outline: none;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+footer .fot1 i{
+    font-size: 20px;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+footer .fot1 i:hover{
+    color: #6d7ff9;
+}
+/*footer end*/
