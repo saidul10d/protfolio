@@ -11,7 +11,6 @@ header{
     position: fixed;
     top: 0;
     background-color: white;
-    z-index: 4;
 }
 header div{
     float: left;
@@ -21,7 +20,7 @@ header div{
     margin-top: 10px;
 }
 header .logo{
-   width: 9%;
+   width: 130px;
    margin: 20px;
    margin-left: 150px;
 }
@@ -49,6 +48,18 @@ header .nav ul li a{
 }
 .nav ul a:hover{
     color: #BA68C8;
+}
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.9);
+    float: right;
+    line-height: 80px;
+    margin-right: -90px;
+    margin-top: -10px;
+}
+#check{
+    display: none;
 }
 /*header end*/
 /*section1 start*/
@@ -100,6 +111,7 @@ header .nav ul li a{
     outline: none;
     background: linear-gradient(150deg,#BA68C8 60%, #9f9fff );
 }
+
 /*section1 end*/
 /*section2 end*/
 .section2{
@@ -188,7 +200,7 @@ header .nav ul li a{
     padding-top: 60px;
 }
 .src1 img, .src2 img{
-    width: 18%;
+    width: 70px;
     filter: drop-shadow(2px 2px 30px rgba(97, 94, 97, 0.4));
 }
 .service h1{
@@ -399,3 +411,183 @@ footer .fot1 i:hover{
     color: #6d7ff9;
 }
 /*footer end*/
+
+@media (max-width:768px){
+    header {
+        width: 100%;
+        height: 70px;
+        z-index: 5;
+    }
+    header .logo{
+        margin-left: 30px;
+        padding: 0px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    header .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #f9f9ff;
+        top: 54px;
+        left: -6000px;
+        transition: all .1s;
+    }
+    header .nav ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    header .nav ul li a{
+        font-size: 20px;
+        text-align: center;
+    }
+    .section1{
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    .half1{
+        margin: auto;
+        padding: 80px;
+    }
+    .half1 h3{
+        font-size: 15px;
+        top: 30px !important;
+    }
+    .half1 h1{
+        font-size: 30px;
+    }
+    .half2 img{
+        margin-left: 90px;
+        margin-top: -170px;
+        width: 100%;
+        height: auto;
+    }
+    .section1 input{
+        cursor: pointer;
+    }
+    .section2{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        top: 150px;
+        position: relative;
+    }
+    .section2{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        top: 150px;
+        position: relative;
+    }
+    .section2 .about2{
+        position: relative;
+        right: 100px;
+        top: -220px;
+    }
+    .section2 div{
+        width: 100%;
+    }
+    .text2{
+        position: absolute;
+        bottom: 140px;
+        text-align: center !important;
+    }
+    .text2 h1{
+        font-size: 30px;
+    }
+    .text2 p{
+        margin-left: 50px;
+        font-size: 15px;
+    }
+    .section3{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 200px;
+    }
+    .firsttext > h1{
+        font-size: 30px;
+        color: rgba(0, 0, 0, 0.9);
+    }
+    .firsttext p{
+        width: 80%;
+    }
+    .src1 div, .src2 div{
+        clear: left;
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    .section4{
+        line-height: 25px;
+        width: 100%;
+        height: 90vh;
+        position: relative;
+        top: 200px;
+    }
+    .section4 div{
+        text-align: center;
+        left: 200px;
+        clear: left;
+        margin-top: -10px;
+    }
+    .section4 div h1{
+        font-size: 44px;
+    }
+    .section4 div p{
+        font-size: 16px;
+    }
+    .section5{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 200px;
+    }
+    .section5 .imgg{
+        margin-bottom: 100px;
+    }
+    .section6{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 100px;
+    }
+    .section6 .text4 h1{
+        font-size: 33px;
+    }
+    .section6 .text4 p{
+        width: 80%;
+        margin: auto;
+        padding-bottom: 100px;
+    }
+    .section6 .card{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        left: 90px;
+    }
+    .card .card1{
+        margin-top: 50px;
+    }
+    footer{
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        top: 135em;
+    }
+    footer .fot{
+        display: block;
+        position: relative;
+        top: 100px;
+    }
+    footer .fot1 .abp{
+        width: 30%;
+    }
+}
